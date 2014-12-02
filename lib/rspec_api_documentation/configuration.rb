@@ -80,6 +80,8 @@ module RspecApiDocumentation
     add_setting :response_headers_to_include, :default => nil
     add_setting :request_headers_to_exclude, :default => nil
     add_setting :response_headers_to_exclude, :default => nil
+    add_setting :request_headers_rewrite_proc, :default => nil
+    add_setting :response_headers_rewrite_proc, :default => nil
     add_setting :html_embedded_css_file, :default => nil
 
     # Change how the post body is formatted by default, you can still override by `raw_post`
